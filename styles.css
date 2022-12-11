@@ -1,12 +1,64 @@
-.flex-container {
-  /* display: flex; */
+.flex-container { /* display: flex; */}
+.flex-container1{}
+    .flex-containerC1{}
+        .flex-containerC1G1{}
+        .flex-containerC1G2{}
+.flex-container2{}
+    .flex-containerC2{}
+        .flex-containerC2G1{}
+        .flex-containerC2G2{}
+.flex-container3{}
+    .flex-containerC3{}
+        .flex-containerC3G1{}
+        .flex-containerC3G2{}
+
+
+.flex-container1 div {
+  background: #1F2937;
+  color:#f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+ 
+.flex-containerC1G2 ul li{    /* header 1/2/3*/
+    list-style: none;
+    display: inline;
+    margin:0 20px;
 }
 
-/* this selector selects all divs inside of .flex-container */
-.flex-container div {
-  background: #1F2937;
-  height: 100px;
-  /* flex: 1; */
+.flex-containerC1G2 ul li a {
+    /* header 1/2/3*/
+    text-decoration: none;
+    color:white;
+    }
+
+
+
+.flex-container2 div {    
+    background: #1F2937;
+  color:#f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   
+}
+
+.flex-containerC2G1 div {
+    /* This website is awesome */
+    display:column;
+    align-items: center;
+    justify-content: stretch;
+    }
+
+
+.flex-container3 div{
+    background-color: #E5E7Eb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 
 
@@ -21,34 +73,10 @@ h1{
     font-size: 48px
 }
 
-/*class selector (common)*/
 .btn{
     padding:10px; color:white;
 }
 .btn-1 {
     background-color: blue;
-}
-
-/*id selector (rare)*/
-#id {
-    
-}
-
-
-#background {
-    background-color: ;
-}
-
-.headerBar {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(31, 41, 55, 0.479);
-    text-decoration: none;
-    position: fixed;
-    top: 0;
-    z-index: 9;
 }
 
