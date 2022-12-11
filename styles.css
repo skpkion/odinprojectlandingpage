@@ -1,0 +1,54 @@
+.flex-container {
+  /* display: flex; */
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+  background: #1F2937;
+  height: 100px;
+  /* flex: 1; */
+}
+
+
+div p {
+    font-size: small;
+}
+
+
+/*element selector example*/
+h1{
+    color: #f9faf8;
+    font-size: 48px
+}
+
+/*class selector (common)*/
+.btn{
+    padding:10px; color:white;
+}
+.btn-1 {
+    background-color: blue;
+}
+
+/*id selector (rare)*/
+#id {
+    
+}
+
+
+#background {
+    background-color: ;
+}
+
+.headerBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(31, 41, 55, 0.479);
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+
